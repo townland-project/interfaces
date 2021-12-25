@@ -1,0 +1,23 @@
+{
+  "name": "@townland-project/interfaces",
+  "version": "0.0.1",
+  "description": "All Typescript interfaces and types in Townland",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "keywords": [
+    "townland",
+    "character"
+  ],
+  "author": {
+    "name": "Townland",
+    "url": "https://townland.xyz",
+    "email": "mail@townland.xyz"
+  },
+  "homepage": "https://project.townland.xyz/repo/interface",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
