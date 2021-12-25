@@ -25,3 +25,12 @@ export interface ICharacterDress {
     shoes?: string
     accessories?: string
 }
+
+export interface ICDNAssets {
+    size: number
+    item: ICDNAssetsItem
+}
+
+export interface ICDNAssetsItem {
+    [key: string]: string
+}
